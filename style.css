@@ -29,6 +29,7 @@ body {
     font-weight: bold;
     padding: 15px;
     background-color: white;
+    border-radius: 20px 4px;
     text-shadow: 1px 1px 2px #000000;
 }
 
@@ -49,7 +50,7 @@ body {
 .search-bar button {
     float: right;
     width: 20%;
-    background: #2196F3;
+    background: #FFD23F;
     color: white;
     font-size: 15px;
     border: 1px solid grey;
@@ -59,4 +60,14 @@ body {
     outline: none;
 }
 
+.card-deck {
+    border: 1px solid white;
+    border-radius: 40px 5px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-family: fantasy;
+    background-color: rgba( 0, 0, 0, 0.1);
+}
 
